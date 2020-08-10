@@ -44,5 +44,6 @@ Q:由于找不到msvcp140.dll无法继续执行代码<br>
 A:下载https://www.microsoft.com/zh-cn/download/confirmation.aspx?id=48145<br>
 Q:服务没有响应控制功能<br>
 A:C:\mysql\mysql-8.0.21-winx64\bin>mysqld --console<br>
-
+Q:装scrapy,Microsoft Visual C++ 14.0 is required.<br>
+A:https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/
 ![avatar]()
