@@ -38,11 +38,11 @@ C:\mysql\mysql-8.0.21-winx64\bin>mysql -u root -p<br>
 alter user user() identified by 'ricechips';
 
 ## abaaba
-壁纸https://wallhaven.cc/
+壁纸https://wallhaven.cc/<br>
 报错解决<br>
 Q:由于找不到msvcp140.dll无法继续执行代码<br>
 A:下载https://www.microsoft.com/zh-cn/download/confirmation.aspx?id=48145<br>
 Q:服务没有响应控制功能<br>
-A:C:\mysql\mysql-8.0.21-winx64\bin>mysqld --console
+A:C:\mysql\mysql-8.0.21-winx64\bin>mysqld --console<br>
 
-
+![avatar]()
