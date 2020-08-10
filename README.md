@@ -1,1 +1,48 @@
-# -python-
+# python3.8+pycharm2020.2+mysql8.0.21
+
+## python
+https://www.python.org/downloads/windows/
+
+## pycharm
+https://www.jetbrains.com/pycharm/download/#section=windows<br>
+Professional激活方法<br>
+Community版本没有内置database插件,并且最新版没有可用的插件
+
+## mysql
+https://dev.mysql.com/downloads/<br>
+创建my.ini配置文件
+```c
+[mysql]
+# 设置mysql客户端默认字符集
+default-character-set=utf8
+ 
+[mysqld]
+# 设置3306端口
+port = 3306
+# 设置mysql的安装目录
+basedir=C:\MySQL\mysql-8.0.15
+# 设置 mysql数据库的数据的存放目录，MySQL 8+ 不需要以下配置，系统自己生成即可，否则有可能报错
+# datadir=C:\\web\\sqldata
+# 允许最大连接数
+max_connections=20
+# 服务端使用的字符集默认为8比特编码的latin1字符集
+character-set-server=utf8
+# 创建新表时将使用的默认存储引擎
+default-storage-engine=INNODB
+```
+C:\Windows\system32>cd C:\mysql\mysql-8.0.21-winx64\bin<br>
+.\mysqld --initialize --console<br>
+.\mysqld install<br>
+net start mysql<br>
+C:\mysql\mysql-8.0.21-winx64\bin>mysql -u root -p<br>
+alter user user() identified by 'ricechips';
+
+## abaaba
+壁纸https://wallhaven.cc/
+报错解决<br>
+Q:由于找不到msvcp140.dll无法继续执行代码<br>
+A:下载https://www.microsoft.com/zh-cn/download/confirmation.aspx?id=48145<br>
+Q:服务没有响应控制功能<br>
+A:C:\mysql\mysql-8.0.21-winx64\bin>mysqld --console
+
+
