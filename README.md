@@ -49,5 +49,5 @@ A:https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/<br>
 Q:Cannot open include file: 'basetsd.h': No such file or directory<br>
 A:https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/<br>
 Q:fatal error LNK1158: cannot run 'rc.exe'<br>
-A:在环境变量path中添加C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64将rc.exe和rcdll.dll从C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64复制到C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin<br>
+A:在环境变量path中添加C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64将rc.exe和rcdll.dll<be>从C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64复制到C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin<br>
 ![avatar]()
