@@ -1,6 +1,6 @@
 转载自https://github.com/wistbean/learn_python3_spider/blob/master/ikun_basketball.py<br>
 报错chromedriver' executable needs to be in PATH<br>
-<p style="background-color:DodgerBlue;">&nbsp;下载https://chromedriver.chromium.org/downloads 并修改了browser = webdriver.Chrome()</p>
+<p style="background-color:DodgerBlue;">&nbsp;下载https://chromedriver.chromium.org/downloads &nbsp；并修改了browser = webdriver.Chrome()</p>
 
 
 # coding=utf-8
