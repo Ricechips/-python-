@@ -1,9 +1,7 @@
-:green_heart:
-转载自https://github.com/wistbean/learn_python3_spider/blob/master/ikun_basketball.py<br>
-报错chromedriver' executable needs to be in PATH<br>
-$\color{#FF3030}{下载https://chromedriver.chromium.org/downloads &nbsp;并修改了browser = webdriver.Chrome()}$
+转载自https://github.com/wistbean/learn_python3_spider/blob/master/ikun_basketball.py
+报错chromedriver' executable needs to be in PATH
+下载https://chromedriver.chromium.org/downloads &nbsp;并修改了browser = webdriver.Chrome()
 
-```python
 # coding=utf-8
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
@@ -122,4 +120,4 @@ def main():
 if __name__ == '__main__':
     main()
     book.save('雾山五行.xlsx')
-```
+
