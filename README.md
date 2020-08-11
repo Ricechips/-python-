@@ -51,4 +51,4 @@ A:https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/<br><br
 Q:fatal error LNK1158: cannot run 'rc.exe'<br>
 A:在环境变量path中添加C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64<br>
 将rc.exe和rcdll.dll从C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64复制到C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin<br><br>
-![avatar]()
+![avatar](https://github.com/Ricechips/-python-/blob/master/PrtScn/ea072ccfc8c0033798db2a6042732cb.png)
