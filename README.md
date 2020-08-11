@@ -1,3 +1,4 @@
+:hamburger:[表情网址](https://www.webfx.com/tools/emoji-cheat-sheet/)
 # python3.8+pycharm2020.2+mysql8.0.21
 
 ## python
@@ -11,7 +12,7 @@ Community版本没有内置database插件,并且最新版没有可用的插件
 ## mysql
 https://dev.mysql.com/downloads/<br>
 创建my.ini配置文件
-```c
+```
 [mysql]
 # 设置mysql客户端默认字符集
 default-character-set=utf8
@@ -38,7 +39,7 @@ C:\mysql\mysql-8.0.21-winx64\bin>mysql -u root -p<br>
 alter user user() identified by 'ricechips';
 
 ## abaaba
-壁纸https://wallhaven.cc/<br><br>
+`壁纸https://wallhaven.cc/`<br><br>
 报错解决<br>
 Q:由于找不到msvcp140.dll无法继续执行代码<br>
 A:下载https://www.microsoft.com/zh-cn/download/confirmation.aspx?id=48145<br><br>
