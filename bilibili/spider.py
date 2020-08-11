@@ -1,8 +1,8 @@
 转载自https://github.com/wistbean/learn_python3_spider/blob/master/ikun_basketball.py<br>
 报错chromedriver' executable needs to be in PATH<br>
-<p style="background-color:DodgerBlue;">&nbsp;下载https://chromedriver.chromium.org/downloads &nbsp；并修改了browser = webdriver.Chrome()</p>
+<font color=gray size=5>下载https://chromedriver.chromium.org/downloads &nbsp;并修改了browser = webdriver.Chrome()</font>
 
-
+```python
 # coding=utf-8
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
@@ -121,3 +121,4 @@ def main():
 if __name__ == '__main__':
     main()
     book.save('雾山五行.xlsx')
+```
