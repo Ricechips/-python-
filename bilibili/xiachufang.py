@@ -29,3 +29,6 @@ for img in img_list:
     with open(filepath, 'wb') as f:
         for chunk in resp.iter_content(1024):
             f.write(chunk)
+
+# 一行代码实现以上功能
+# curl -s http://www.xiachufang.com/|grep -oP '(?<=src=\")http://i2\.chuimg\.com/\w+\.jpg'|xargs -i curl --create-dir {} -o ./images/{}
