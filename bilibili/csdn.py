@@ -24,3 +24,6 @@ print(article)
 
 with open('csdn.html', mode='w', encoding='utf-8') as f:
     f.write(html.format(content=article))
+# import pdfkit
+# config = pdfkit.configuration(wkhtmltopdf=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
+# pdfkit.from_file('csdn.html', 'csdn.pdf', configuration=config)
